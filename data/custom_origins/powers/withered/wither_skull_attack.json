@@ -1,0 +1,20 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:wither_skull",
+	"cooldown": 20,
+	"speed": 1.0,
+	"divergence": 1.5,
+	"sound": "entity.wither.shoot",
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 7
+	},
+	"condition": {
+		"type": "origins:relative_health",
+		"comparison": ">=",
+		"compare_to": 0.5
+	},
+	
+	"name": "Wither Skull Charge",
+	"description": "Channeling soul energy, you are able to summon an explosive wither skull"
+}

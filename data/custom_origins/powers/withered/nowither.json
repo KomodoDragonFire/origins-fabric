@@ -1,0 +1,6 @@
+{
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:wither",
+    "name": "Witherproof",
+    "description": "You can't get affected by the wither effect."
+}

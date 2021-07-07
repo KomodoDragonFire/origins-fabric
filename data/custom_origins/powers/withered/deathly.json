@@ -1,0 +1,28 @@
+{
+	"type": "origins:action_over_time",
+    "entity_action": {
+		"type": "origins:damage",
+		"amount": 4,
+		"source": {
+			"name": "magic",
+			"fire": false,
+			"bypasses_armor": true
+		}
+    },
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:dimension",
+				"dimension": "minecraft:overworld"
+			},
+			{
+				"type": "origins:dimension",
+				"dimension": "minecraft:the_end"
+			}
+		]
+	},
+    "interval": 300,
+	"name": "Deathly Ill",
+	"description": "You must fight to stay alive in the Overworld and End, slowly losing health over time."
+}

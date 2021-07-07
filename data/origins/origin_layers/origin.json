@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"origins": [
+		"custom_origins:panda_kin",
+		"custom_origins:withered"
+	]
+}

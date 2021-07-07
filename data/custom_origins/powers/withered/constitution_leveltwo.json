@@ -1,0 +1,25 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.max_health",
+		"operation": "addition",
+		"value": 16
+	},
+	"tick_rate": 20,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:xp_levels",
+				"comparison": ">=",
+				"compare_to": 100
+			},
+			{
+				"type": "origins:xp_levels",
+				"comparison": "<",
+				"compare_to": 150
+			}
+		]
+	},
+	"hidden": true
+}

@@ -1,0 +1,30 @@
+{
+	"powers":[
+		"origins:fragile",
+		"custom_origins:withered/hostility",
+		"custom_origins:withered/fortressspawn",
+		"custom_origins:withered/blood_thirst",
+		"custom_origins:withered/noFoodOne",
+		"custom_origins:withered/noFoodTwo",
+		"custom_origins:withered/insatiable_hunger",
+		"custom_origins:withered/nowither",
+		"custom_origins:withered/fire_immune",
+		"custom_origins:withered/wither_skull_attack",
+		"custom_origins:withered/wither_aspect",
+		"custom_origins:withered/wither_explosion",
+		"custom_origins:withered/reap",
+		"custom_origins:withered/particles",
+		"custom_origins:withered/smite",
+		"custom_origins:withered/deathly",
+		"custom_origins:withered/constitution_levelone",
+		"custom_origins:withered/constitution_leveltwo",
+		"custom_origins:withered/constitution_levelthree",
+		"custom_origins:withered/constitution_levelfour",
+		"custom_origins:withered/constitution_levelfive"
+	],
+	"icon": "minecraft:nether_star",
+	"order": 20,
+	"impact": 3,
+	"name": "Withered",
+	"description": "A withered soul, given into its hunger for power."
+}

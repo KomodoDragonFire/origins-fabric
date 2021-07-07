@@ -1,0 +1,10 @@
+{
+	"type": "origins:fire_immunity",
+	"condition": {
+		"type": "origins:xp_levels",
+		"comparison": ">=",
+		"compare_to": 50
+	},
+	"name": "Heat Invulnerability",
+	"description": "You are familier with the harsh soul trapping nature of the nether and become immune to fire."
+}

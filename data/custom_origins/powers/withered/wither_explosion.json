@@ -1,0 +1,71 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "summon creeper ~ ~2 ~ {Silent:1b,Invulnerable:1b,powered:1b,Fuse:0,ignited:1b}",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:strength 20 5",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "effect give @s minecraft:resistance 20 5",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:ash ~ ~ ~ 1 1 1 0.4 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:soul  ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:witch ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:soul_fire_flame ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:portal ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:explosion ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "particle minecraft:large_smoke .3 0 .8 2 ~ ~ ~ 10 10 10 1 1000 normal",
+				"permission_level": 4
+			}
+		]
+	},
+	"cooldown": 1800,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 5
+	},
+	"key": "secondary",
+	"condition": {
+		"type": "origins:relative_health",
+		"comparison": "<=",
+		"compare_to": 0.5
+	},
+	"name": "Final Breath",
+	"description": "Summoning all your might, you create and explosion and gain the effects of resistance, and strength"
+}

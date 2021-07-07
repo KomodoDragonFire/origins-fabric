@@ -1,0 +1,27 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.max_health",
+		"operation": "addition",
+		"value": 6
+	},
+	"tick_rate": 20,
+  
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:xp_levels",
+				"comparison": ">=",
+				"compare_to": 50
+			},
+			{
+				"type": "origins:xp_levels",
+				"comparison": "<",
+				"compare_to": 100
+			}
+		]
+	},
+	"name": "Undead Constitution",
+	"description":  "You have the durability of the undead.  Who knows, gathering more souls might do something."
+}

@@ -1,0 +1,22 @@
+{
+	"powers":[
+		"origins:vegetarian",
+		"origins:natural_armor",
+		"origins:more_exhaustion",
+		"origins:no_shield",
+		"custom_origins:panda_kin/large_size",
+		"custom_origins:panda_kin/stamina_levelone",
+		"custom_origins:panda_kin/stamina_leveltwo",
+		"custom_origins:panda_kin/stamina_levelthree",
+		"custom_origins:panda_kin/stamina_levelfour",
+		"custom_origins:panda_kin/stamina_levelfive",
+		"custom_origins:panda_kin/stamina_levelsix",
+		"custom_origins:panda_kin/stamina_levelseven",
+		"custom_origins:panda_kin/stamina_leveleight"
+	],
+	"icon": "minecraft:bamboo",
+	"order": 5,
+	"impact": 2,
+	"name": "Panda Kin",
+	"description": "Born as the brothers/sisters of the great pandas."
+}

@@ -1,0 +1,10 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "name": "Extra exhaustion from large appetite",
+    "value": 0.812,
+    "operation": "multiply_base"
+  },
+  "name": "Insatiable Hunger",
+  "description": "You hunger for the souls of others and lose hunger more quickly."
+}
